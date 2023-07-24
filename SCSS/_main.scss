@@ -1,0 +1,170 @@
+.nav{
+    padding: 40px 312px 0px 312px;
+    background: black;
+    li{
+        line-height: 24px;
+        width: 306px;
+        a{
+            color: #D1D1D1;
+        }
+    }
+    
+}
+.header{
+    background: black;
+    padding: 74px 0;;
+    .people{
+        width: 636px;
+    }
+    .title{
+        display: flex;
+        align-items: center;        
+        width: 636px;
+        position: relative;
+        .title-intro{
+            color: #D1D1D1;
+            font-size: 64px;
+            line-height: 96px;
+        }
+        .name{
+            color:  #00FFA3;
+            font-size: 128px;
+            line-height: 192px;
+            text-align: right;
+        }
+        .title-btn{
+            background-color: #FFFFFF;
+            color: #000;
+            line-height: 24px;
+            padding:12px 24px;
+            border-radius: 32px;
+            position: absolute;
+            right:0
+        }
+    }
+}
+.intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    padding: 160px 0;
+    .intro-content{
+        width: 526px;
+        color:#FFFFFF;
+        h2{
+            font-size: 64px;
+            line-height: 96px;
+        }
+        p{
+           font-size: 24px;
+           line-height: 36px; 
+           margin: 34px 0;
+        }
+    }
+    .content-sparkle{
+        img{
+            margin-right: 48px;
+        }
+    }
+    .intro-pic{
+        width: 746px;
+    }
+}
+
+
+.about{
+    padding:160px 31px ;
+    .about-cards{
+        width: 636px;
+        .card-content{
+            border: 1px solid #E3E3E3;
+            box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.08);
+            padding: 16px;
+            width: 306px;
+            margin: 24px 0;
+            h3{
+              font-size: 20px;
+              line-height: 30px; 
+            }
+            p{
+                line-height: 24px;
+            }
+        }
+    }
+    .me{
+        width: 526px;
+        margin-left: 134px;
+        h2{
+           font-size: 64px;
+           line-height: 96px;
+        }
+        p{
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}
+.contact{
+    padding: 96px 0;
+    background: linear-gradient(#050014 100%, #01021EE3 89%);
+    p{
+        font-size: 64px;
+        line-height: 96px;
+        color:#FFFFFF;
+        margin-right: 50px;
+    }
+    .media{
+        li{
+            width: 162px;
+            display: block;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+.project{
+    margin: 0 auto;
+    padding: 160px 0;
+    .project-title{
+        float: right;
+        width: 746px;
+        h3{
+            font-size: 64px;
+            line-height: 96px;
+        }
+    }
+    .pic-left{
+        margin-right:24px;
+    }
+    .pic-right{
+        width: 856px;
+        .right-top{
+            margin-bottom: 28px;
+        }
+        .top-content{
+            position: relative;
+            margin-left: 12px;
+            p{
+                width: 636px;
+                line-height: 24px;
+                color:#15161D
+            }
+            a{
+                display: inline-block;
+                padding: 12px 24px;
+                border-radius: 32px;
+                color:white;
+                background-color: #000000;
+                position: absolute;
+                bottom: 0;
+            }
+        } 
+    }
+}
+.footer{
+    padding: 40px;
+    line-height: 24px;
+    background-color: #000000;
+    text-align: center;
+    color:white
+}

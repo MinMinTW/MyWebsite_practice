@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 40px 312px 0px 312px;
+  background: black;
+}
+.nav li {
+  line-height: 24px;
+  width: 306px;
+}
+.nav li a {
+  color: #D1D1D1;
+}
+
+.header {
+  background: black;
+  padding: 74px 0;
+}
+.header .people {
+  width: 636px;
+}
+.header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 636px;
+  position: relative;
+}
+.header .title .title-intro {
+  color: #D1D1D1;
+  font-size: 64px;
+  line-height: 96px;
+}
+.header .title .name {
+  color: #00FFA3;
+  font-size: 128px;
+  line-height: 192px;
+  text-align: right;
+}
+.header .title .title-btn {
+  background-color: #FFFFFF;
+  color: #000;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 32px;
+  position: absolute;
+  right: 0;
+}
+
+.intro {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  padding: 160px 0;
+}
+.intro .intro-content {
+  width: 526px;
+  color: #FFFFFF;
+}
+.intro .intro-content h2 {
+  font-size: 64px;
+  line-height: 96px;
+}
+.intro .intro-content p {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 34px 0;
+}
+.intro .content-sparkle img {
+  margin-right: 48px;
+}
+.intro .intro-pic {
+  width: 746px;
+}
+
+.about {
+  padding: 160px 31px;
+}
+.about .about-cards {
+  width: 636px;
+}
+.about .about-cards .card-content {
+  border: 1px solid #E3E3E3;
+  -webkit-box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  width: 306px;
+  margin: 24px 0;
+}
+.about .about-cards .card-content h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.about .about-cards .card-content p {
+  line-height: 24px;
+}
+.about .me {
+  width: 526px;
+  margin-left: 134px;
+}
+.about .me h2 {
+  font-size: 64px;
+  line-height: 96px;
+}
+.about .me p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.contact {
+  padding: 96px 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #050014), color-stop(89%, rgba(1, 2, 30, 0.8901960784)));
+  background: linear-gradient(#050014 100%, rgba(1, 2, 30, 0.8901960784) 89%);
+}
+.contact p {
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+  margin-right: 50px;
+}
+.contact .media li {
+  width: 162px;
+  display: block;
+}
+.contact .media li:hover {
+  cursor: pointer;
+}
+
+.project {
+  margin: 0 auto;
+  padding: 160px 0;
+}
+.project .project-title {
+  float: right;
+  width: 746px;
+}
+.project .project-title h3 {
+  font-size: 64px;
+  line-height: 96px;
+}
+.project .pic-left {
+  margin-right: 24px;
+}
+.project .pic-right {
+  width: 856px;
+}
+.project .pic-right .right-top {
+  margin-bottom: 28px;
+}
+.project .pic-right .top-content {
+  position: relative;
+  margin-left: 12px;
+}
+.project .pic-right .top-content p {
+  width: 636px;
+  line-height: 24px;
+  color: #15161D;
+}
+.project .pic-right .top-content a {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 32px;
+  color: white;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer {
+  padding: 40px;
+  line-height: 24px;
+  background-color: #000000;
+  text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+}
+
+.t-align-r {
+  text-align: right;
+}
+
+.d-flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.d-flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.d-flex-sb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex-spa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.align-i-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.image-container {
+  display: block;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent; /* 初始时透明边框 */
+  -webkit-transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease; /* 添加过渡效果，让边框变化平滑 */
+}
+
+/* 鼠标悬停时，边框发亮 */
+.image-container:hover::before {
+  border-color: #ffcc00; /* 设置边框颜色为黄色，可以根据需要调整颜色值 */
+}

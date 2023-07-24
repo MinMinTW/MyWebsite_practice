@@ -1,0 +1,32 @@
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+.t-align-r{
+    text-align: right;
+}
+.d-flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+}
+.d-flex-sb{
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex-spa{
+    display: flex;
+    justify-content:space-around ;
+}
+.align-i-c{
+    align-items: center;
+}
+.container{
+    margin: 0 auto;
+}
+.clearfix{
+    clear:both
+}
+
